@@ -1,0 +1,11 @@
+---
+applications:
+- name: cf-nemo-blue
+  buildpack: nodejs_buildpack
+  command: node app.js
+  instances: 1
+  memory: 128MB
+  disk_quota: 128MB
+  random-route: true
+  services:
+  - mongodb-nemo

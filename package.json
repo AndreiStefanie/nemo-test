@@ -1,0 +1,27 @@
+{
+  "name": "cf-nemo",
+  "version": "0.0.1",
+  "description": "Test app using mondodb, express, and ui5",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/THX33/nemo-test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "7.10.1"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "cfenv": "latest",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "express": "latest",
+    "express-validator": "^4.3.0",
+    "mongoose": "latest",
+    "mongoose-auto-increment": "^5.0.1",
+    "path": "latest"
+  }
+}

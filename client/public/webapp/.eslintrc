@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "prefer-arrow-callback": "off",
+    "func-names": "off",
+    "object-shorthand": "off",
+    "prefer-template": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 5
+  },
+  "root": false
+}
